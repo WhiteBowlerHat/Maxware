@@ -1,5 +1,7 @@
 from pynput import keyboard
 
+
+#Add listener
 def on_press(key):
     print('{0} pressed'.format(key))
 
